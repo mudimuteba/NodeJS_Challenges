@@ -5,6 +5,7 @@ const {Prospect} = require('../models/prospect');
 
 router.get('/viewProspectById:id', (req, res) => {
     let id = req.params.id;
+    
     if (!ObjectID.isValid(id)) return res.status(404).send();
 
     Prospect.findById(id).then((prospect) => {
