@@ -6,11 +6,11 @@
   "author": "Mudi Muteba",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "nodemon": "^1.19.0",
-    "pug": "^2.0.3"
+    "pug": "^2.0.4"
   },
   "scripts": {
-        "start": "node index.js"
-    }
+    "start": "node index.js"
+  }
 }
