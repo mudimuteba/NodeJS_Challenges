@@ -35,7 +35,7 @@
 
 	You run access these exact endpoints via Postman using the following request collection: https://www.getpostman.com/collections/876a80d3b935c452b061
 
-- The service uses Mongodb database and Mongoose schema.
+- The service uses the Mongodb database and the Mongoose schema.
 
 
 ## Getting Started
