@@ -4,9 +4,6 @@ const bodyParser = require("body-parser");
 const urlencodedParser = bodyParser.urlencoded({ extended: true });
 
 app.use(express.static('./'));
-// app.use(express.json());
-// app.use(express.urlencoded());
-// app.use(express.multipart());
 
 app.get('/', function (req, res) {
     res.send('Hello World!')
